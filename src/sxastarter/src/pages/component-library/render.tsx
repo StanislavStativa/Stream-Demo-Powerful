@@ -1,7 +1,7 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import {
-  DesignLibrary,
+  ComponentLibraryLayout,
   ComponentPropsContext,
   SitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -35,7 +35,7 @@ const FEAASRender = ({
           ))}
         </Head>
         <ParallaxProvider>
-          <DesignLibrary {...layoutData} />
+          <ComponentLibraryLayout {...layoutData} />
         </ParallaxProvider>
       </SitecoreContext>
     </ComponentPropsContext>
