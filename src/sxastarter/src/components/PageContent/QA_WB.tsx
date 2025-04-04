@@ -1,4 +1,4 @@
-import { Field, Image, ImageField, Link } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, Image, ImageField, Link, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
   Title: Field<string>;
@@ -27,6 +27,9 @@ export const Default = (props: DemoComponentProps): JSX.Element => {
   return props.fields ? (
     <div className={`component QA_WB ${props.params?.styles?.trimEnd()}`} id={id ? id : undefined}>
       <div className="container">
+        <h1 className="row pt-2">
+          Title: <Text field={props.fields.Title} />
+        </h1>
         <div className="pt-2">
           <strong>Image</strong>
           <div>
