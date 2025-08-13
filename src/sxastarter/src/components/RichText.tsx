@@ -10,7 +10,7 @@ export type RichTextProps = {
   fields: Fields;
 };
 
-// It's a default variant
+// It's a default variant for the RTE component
 export const Default = (props: RichTextProps): JSX.Element => {
   const text = props.fields ? (
     <RichText field={props.fields.Text} />
