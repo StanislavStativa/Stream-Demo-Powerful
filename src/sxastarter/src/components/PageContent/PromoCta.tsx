@@ -35,7 +35,7 @@ export type PromoCtaProps = ComponentProps & {
 const PromoDefault = (props: PromoCtaProps): JSX.Element => (
   <div className={`component promo-cta ${props?.params?.styles}`.trimEnd()}>
     <div className="component-content">
-      <span className="is-empty-hint">Promo CTA</span>
+      <span className="is-empty-hint">Promo CTA DARU</span>
     </div>
   </div>
 );
