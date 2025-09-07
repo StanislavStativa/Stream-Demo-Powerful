@@ -1,5 +1,5 @@
 // SDK branch
-// Trigger a new Code extraction #15
+// Trigger a new Code extraction #16
 import { Field, RichText } from '@sitecore-content-sdk/nextjs';
 import React, { JSX } from 'react';
 
