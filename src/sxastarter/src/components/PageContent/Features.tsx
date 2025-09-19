@@ -20,7 +20,7 @@ interface Fields {
   Title2: Field<string>;
   Text2: Field<string>;
 }
-
+//Andre test 1
 export type FeaturesProps = {
   params: { [key: string]: string };
   fields: Fields;
